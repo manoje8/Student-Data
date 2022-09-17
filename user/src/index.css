@@ -1,0 +1,50 @@
+.info {
+    text-align: center;
+    flex-direction: column;
+    margin: 10rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form input {
+    width: 15rem;
+    height: 25px;
+    padding-left: 10px;
+    text-align: center;
+}
+form label {
+    padding: 10px 10px;
+
+}
+ form button {
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+ }
+
+ .show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .data {
+    width:700px;
+    height:auto;
+    border:5px solid palevioletred;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    font-family: monospace;
+
+ }
+ .data p {
+    margin: 20px;
+ }
